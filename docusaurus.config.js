@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Proof of Vibes Docs',
-  tagline: 'Learn to vibe',
+  tagline: 'Get a deep dive into the Vibes Protocol today',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -42,14 +42,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/codingshot/pov-docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/codingshot/pov-docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -66,7 +66,7 @@ const config = {
       navbar: {
         title: 'Proof of Vibes Docs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Proof of Vibes Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -74,24 +74,40 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '📍 Start Here',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://app.ProofOfVibes.com',
+            label: 'App',
             position: 'right',
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Learn more',
             items: [
               {
-                label: 'Tutorial',
+                label: 'For Council',
+                to: '/docs/intro',
+              },
+              {
+                label: 'For Tastemakers',
+                to: '/docs/intro',
+              },
+              {
+                label: 'For Vibe Seekers',
+                to: '/docs/intro',
+              },
+              {
+                label: 'For Vibees',
+                to: '/docs/intro',
+              },
+              {
+                label: 'For Contributors',
                 to: '/docs/intro',
               },
             ],
@@ -100,16 +116,20 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Telegram',
+                href: 'https://ProofofVibes.com/telegram',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/VibesProof',
+              },
+              {
+                label: 'BOS',
+                href: 'https://ProofofVibes.com/telegram',
+              },
+              {
+                label: 'Verify Human',
+                href: 'https://ProofofVibes.com/human',
               },
             ],
           },
@@ -117,17 +137,29 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'App',
+                href: 'https://app.ProofOfVibes.com',
+              },
+              {
+                label: 'Website',
+                href: 'https://ProofOfVibes.com',
+              },
+              {
+                label: 'Apply As A Tastemaker',
+                href: 'https://twitter.com/docusaurus',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/ProofOfVibes',
+              },
+              {
+                label: 'VibePaper',
+                href: 'https://ProofOfVibes.com/about',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Proof of VIbes`,
       },
       prism: {
         theme: lightCodeTheme,
