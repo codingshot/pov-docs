@@ -2,46 +2,22 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# About Proof of Vibes
+Proof of Vibes otherwise known as Vibes Protocol is an onchain global network of tastemakers delivering verified vibes. Powered by a DAO, a network of tastemakers, vibees, and the general public, we have developed a system for curating experiences, verifying vibes on chain, and verifying people based on positive interactions at in real life experiences (IRL), We then elevate them to tastemakers status & stewards of the culture of the ecosystem.
 
-Let's discover **Docusaurus in less than 5 minutes**.
+The following is a comprehensive guide for interacting with the protocol no matter where you are in the system.
 
-## Getting Started
 
-Get started by **creating a new site**.
+# Understanding Terms
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
 
-### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+* **DAO **- A DAO is an on-chain organization that powers the Vibes Protocol
+* Council - A group of founders, and Vibe evangelists that have vote and proposal powers on the vibes.sputnik-dao.near contract 
+* **Tastemaker **- a group of verified vibe curators that select vibe checks to verify potential vibe goers
+* **Vibee** - a verified person at a VibeCheck by a tastemaker.
+* **Vibe Seeker** - general population and public looking to Tap-in into order to become a Vibee
+* **VibeCheck **- a term to denote an activation curated by a tastemaker. Also a verb to indicate someone checking the vibe. In slang can be used interchange-ably with tap-in
+* **Tap-In **- a term to denote an enchain photo based rating on NEAR’s social graph 
+* **Vibe-rating: **a score based on Friendliness,⚡️ Energy, 🧊 Density, 🌈 Diversity used within a tap-in. In the future this will be used to algorithmically calculate vibes. 
+* **Vibe-Nation** - referring to the population of everyone who vibes. 

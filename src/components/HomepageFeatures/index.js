@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Getting A Proof of Vibe',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/gettingvibe-docusarus.svg').default,
     description: (
       <>
         Tapin with a vibe check to get approved by the tastemakers to get the Proof of Vibe badge, to get a Vibee role in the DAO.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'Becoming A Tastemaker',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/tastemaker-docusarus.svg').default,
     description: (
       <>
         Earn for curating events and bringing quality vibees onboard. Learn how to apply and how the DAO approves you into the DAO.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'How to Submit Proposals',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/proposals-docusarus.svg').default,
     description: (
       <>
         Submit Proposals for events, funding and decide the future of the Vibe DAO.
