@@ -128,6 +128,10 @@ const config = {
                 href: 'https://ProofofVibes.com/telegram',
               },
               {
+                label: 'Feedback',
+                href: 'https://ProofofVibes.com/feedback',
+              },
+              {
                 label: 'Verify Human',
                 href: 'https://ProofofVibes.com/human',
               },

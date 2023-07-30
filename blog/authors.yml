@@ -5,13 +5,13 @@ endi:
   image_url: https://ipfs.near.social/ipfs/bafkreiauzzfxnlkqr5lgkw3hlrcu64x4qxrt2xn4yzwxjoq6zvfizicqou
 
 yangshun:
-  name: Shot
+  name: Plug
   title: CTO @ Proof of Vibes
   url: https://github.com/codingshot
   image_url: https://ipfs.near.social/ipfs/bafkreiecsy5me3sdwblv6tidkcyejpcsl7cex2vdctrf5s33kvpbfn6j6q
 
 slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+  name: Ant Marshall
+  title: Proof of Vibes
+  url: https://app.proofofvibes.com/#/near/widget/ProfilePage?accountId=antmarshall360.near
+  image_url: https://ipfs.near.social/ipfs/bafybeibaucaqpd5snevfjn5n322nstmfdsbjp5weoo6gyc5d7mn3tabkxm
