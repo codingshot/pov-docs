@@ -4,10 +4,13 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import ReactGA from "react-ga4";
 
 import styles from './index.module.css';
 
 function HomepageHeader() {
+  ReactGA.initialize("G-S859RJ45WS");
+
   const {siteConfig} = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
